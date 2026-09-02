@@ -1,0 +1,21 @@
+# Normalize line endings. Prevent Windows CRLF from breaking shell scripts on Linux.
+* text=auto eol=lf
+
+# Shell scripts MUST always be LF (they run on Linux/EC2/SageMaker).
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Python / config kept as LF for consistency across environments.
+*.py text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.ttl text eol=lf
+*.sql text eol=lf
+
+# Binary assets — never touch line endings.
+*.png binary
+*.zip binary
+*.joblib binary
+*.pdf binary

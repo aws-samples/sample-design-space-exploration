@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Build artifacts
+frontend/build/
+frontend/dist/
+*.tar.gz
+!backend/mlsimkit_dist/*.tar.gz
+lambda_handler.zip
+backend-deploy.tar.gz
+
+# IDE / editor
+.claude/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Kiro specs (local development)
+.kiro/specs/
+.kiro/settings/
+.config.kiro
+
+# Log files
+*.log
+aero_logs.txt
+orch_logs*.txt
+orch_full.txt
+orch_ver.txt
+
+# Environment / secrets
+.env
+.env.*
+frontend/public/config.json
+
+# Deployment artifacts
+*_deployment.json
+.bedrock_agentcore.yaml
+
+# Backup files
+*.backup
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Predictions — committed to repo so deploy.sh is fully self-contained.
+# Large binaries (*.vtp, *.png) are tracked via Git LFS (see .gitattributes).
+# prediction_results.csv is raw MLSimKit output, not needed by the seeder.
+predictions/kpi/prediction_results.csv
+
+# Temporary deploy scripts (keep deploy_agents.py and deploy_mcp_lambda.py)
+deploy.ps1

@@ -1,0 +1,24 @@
+boto3==1.42.3
+click==8.3.1
+click-didyoumean==0.3.1
+click-plugins==1.1.1.2
+click-repl==0.3.0
+matplotlib==3.10.7
+matplotlib-inline==0.2.1
+mlsimkit @ file:///home/ubuntu/ai-surrogate-models-in-engineering-on-aws
+numpy==1.26.4
+pandas==2.3.3
+pillow==12.2.0
+pydantic==2.9.2
+pydantic_core==2.23.4
+pyvista==0.45.3
+PyYAML==6.0.3
+scipy==1.15.3
+torch==2.5.1
+torch-geometric==2.7.0
+torch-summary==1.4.5
+torchmetrics==0.11.4
+torchvision==0.20.1
+tqdm==4.67.1
+trimesh==4.10.1
+vtk==9.4.2

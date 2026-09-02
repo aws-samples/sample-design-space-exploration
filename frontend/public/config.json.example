@@ -1,0 +1,10 @@
+{
+  "cognito": {
+    "userPoolId": "us-east-1_XXXXXXXXX",
+    "userPoolClientId": "your-cognito-client-id",
+    "region": "us-east-1"
+  },
+  "websocket": {
+    "url": "wss://your-api-id.execute-api.us-east-1.amazonaws.com/prod"
+  }
+}

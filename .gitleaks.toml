@@ -1,0 +1,23 @@
+# gitleaks configuration for car-design-explorer
+# Extends the default gitleaks ruleset and allowlists known-public identifiers
+# that are NOT secrets (Cognito App Client IDs ship in the browser frontend and
+# are safe to expose). This clears false-positive "generic-api-key" findings in
+# documentation/steering files.
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Public, non-secret identifiers (Cognito app/M2M client IDs, user pool IDs)"
+regexes = [
+  # Cognito App Client ID (public, embedded in the SPA)
+  '''cf3qjt93tqocdhtvv5539t8mt''',
+  # Cognito M2M client ID (referenced in docs)
+  '''3jcdbfva7jodjpssuro3i8vcvh''',
+  # Cognito User Pool IDs (not secrets)
+  '''us-east-1_[A-Za-z0-9]{9,10}''',
+]
+paths = [
+  # Steering/context docs only record public infrastructure identifiers.
+  '''\.kiro/steering/.*\.md''',
+]

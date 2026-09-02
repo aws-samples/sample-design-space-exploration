@@ -1,0 +1,29 @@
+Creative Commons Attribution-ShareAlike 4.0 International
+
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
+Scope
+
+The trained PyTorch model checkpoint files in this directory and its subdirectories are licensed under the Creative Commons Attribution-ShareAlike 4.0 International license, CC BY-SA 4.0.
+
+The source code in this repository is not covered by this notice. It is licensed separately under the MIT No Attribution license in the repository root LICENSE file. Third-party material retains its original license.
+
+License terms
+
+The complete legal code is available at:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+
+A human-readable summary is available at:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Attribution
+
+When sharing these model checkpoints or adaptations, provide appropriate credit to Amazon.com, Inc. or its affiliates, link to the CC BY-SA 4.0 license, indicate whether changes were made, and retain the WindsorML dataset attribution documented in the repository MODEL_CARD.md.
+
+ShareAlike
+
+If you share adapted model material covered by this license, distribute your contributions under CC BY-SA 4.0 or a compatible license as permitted by the license terms.
+
+Disclaimer
+
+These checkpoints are provided as an educational art of the possible sample. They have not been validated, tested, or supported for production use. No warranties are provided. Users are responsible for evaluating suitability, accuracy, safety, and compliance for their intended use.
